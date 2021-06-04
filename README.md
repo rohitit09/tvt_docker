@@ -5,7 +5,7 @@
     docker
 
 ## Install project dependency
-    pip3 install -r requirments.txt
+    pip3 install -r requirements.txt
 
 ## Run for task1
     python app.py 1 2 3
@@ -18,11 +18,11 @@
     or
     docker-compose up
 
-## Access task2 appication on url
+## Access task2 application on url
     PUT: http://localhost:5000/sum
     input body:[1,2,'a']
     or 
     curl -H 'Content-Type: application/json' -X PUT -d '[1,2,"a"]' http://localhost:5000/sum
 
-## Run test for task 2 application:
+## Run test for task2 application:
     python3 -m pytest
